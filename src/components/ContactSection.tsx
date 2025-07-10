@@ -28,11 +28,11 @@ export function ContactSection() {
     setIsSubmitting(true);
     setSubmitStatus(null);
     // EmailJS configuration
-    const serviceId = 'service_mxmld3i'; // You'll need to create a service in EmailJS
-    const templateId = 'template_g2z0bno'; // You'll need to create a template in EmailJS
-    const publicKey = 'OIeJ4qc_bxqBumLus'; // Replace with your actual public key
+    const serviceId = 'service_s7myrgy'; // You'll need to create a service in EmailJS
+    const templateId = 'template_2f6hrgp'; // You'll need to create a template in EmailJS
+    const publicKey = 'L1rTNxixgjBGuigFv'; // Replace with your actual public key
     const templateParams = {
-      to_email: 'marian.effectivesolutions@gmail.com',
+      // to_email: 'marian.effectivesolutions@gmail.com',
       from_name: formState.name,
       from_email: formState.email,
       message: formState.message
